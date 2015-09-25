@@ -22,9 +22,25 @@ class ViewController: UIViewController {
             let session = NSURLSession.sharedSession()
         
             let task = session.dataTaskWithRequest(request) {(data, response, error) in
-                print(NSString(data: data!, encoding: NSUTF8StringEncoding))
-            }
-        
+                print("Response: \(response)")
+                let strData = NSString(data: data!, encoding: NSUTF8StringEncoding)
+                print("Body: \(strData)")
+                do {
+                    let json = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers) as? NSDictionary
+                    if let parseJSON = json {
+                        // Okay, the parsedJSON is here, let's get the value for 'success' out of it
+                        print("Succes: \(parseJSON)")
+                    }
+                    else {
+                        // Woa, okay the json object was nil, something went worng. Maybe the server isn't running?
+                        let jsonStr = NSString(data: data!, encoding: NSUTF8StringEncoding)
+                        print("Error could not parse JSON: \(jsonStr)")
+                    }
+                }
+                catch {
+                        print("Failed parse")
+                    }
+                }
             task.resume()
     }
 
