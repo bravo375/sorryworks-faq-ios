@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B259B1651BB515720021DE4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259B1641BB515720021DE4B /* AppDelegate.swift */; };
+		B259B1671BB515720021DE4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259B1661BB515720021DE4B /* ViewController.swift */; };
+		B259B16A1BB515720021DE4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B259B1681BB515720021DE4B /* Main.storyboard */; };
+		B259B16C1BB515720021DE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B259B16B1BB515720021DE4B /* Assets.xcassets */; };
+		B259B16F1BB515720021DE4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B259B16D1BB515720021DE4B /* LaunchScreen.storyboard */; };
+		B259B17A1BB515720021DE4B /* sorryworks_faqTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259B1791BB515720021DE4B /* sorryworks_faqTests.swift */; };
+		B259B1851BB515720021DE4B /* sorryworks_faqUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259B1841BB515720021DE4B /* sorryworks_faqUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B259B1761BB515720021DE4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B259B1591BB515720021DE4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B259B1601BB515720021DE4B;
+			remoteInfo = "sorryworks-faq";
+		};
+		B259B1811BB515720021DE4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B259B1591BB515720021DE4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B259B1601BB515720021DE4B;
+			remoteInfo = "sorryworks-faq";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B259B1611BB515720021DE4B /* sorryworks-faq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sorryworks-faq.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B259B1641BB515720021DE4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B259B1661BB515720021DE4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B259B1691BB515720021DE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B259B16B1BB515720021DE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B259B16E1BB515720021DE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B259B1701BB515720021DE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B259B1751BB515720021DE4B /* sorryworks-faqTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sorryworks-faqTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B259B1791BB515720021DE4B /* sorryworks_faqTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sorryworks_faqTests.swift; sourceTree = "<group>"; };
+		B259B17B1BB515720021DE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B259B1801BB515720021DE4B /* sorryworks-faqUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sorryworks-faqUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B259B1841BB515720021DE4B /* sorryworks_faqUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sorryworks_faqUITests.swift; sourceTree = "<group>"; };
+		B259B1861BB515720021DE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B259B15E1BB515720021DE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B259B1721BB515720021DE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B259B17D1BB515720021DE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B259B1581BB515720021DE4B = {
+			isa = PBXGroup;
+			children = (
+				B259B1631BB515720021DE4B /* sorryworks-faq */,
+				B259B1781BB515720021DE4B /* sorryworks-faqTests */,
+				B259B1831BB515720021DE4B /* sorryworks-faqUITests */,
+				B259B1621BB515720021DE4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B259B1621BB515720021DE4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B259B1611BB515720021DE4B /* sorryworks-faq.app */,
+				B259B1751BB515720021DE4B /* sorryworks-faqTests.xctest */,
+				B259B1801BB515720021DE4B /* sorryworks-faqUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B259B1631BB515720021DE4B /* sorryworks-faq */ = {
+			isa = PBXGroup;
+			children = (
+				B259B1641BB515720021DE4B /* AppDelegate.swift */,
+				B259B1661BB515720021DE4B /* ViewController.swift */,
+				B259B1681BB515720021DE4B /* Main.storyboard */,
+				B259B16B1BB515720021DE4B /* Assets.xcassets */,
+				B259B16D1BB515720021DE4B /* LaunchScreen.storyboard */,
+				B259B1701BB515720021DE4B /* Info.plist */,
+			);
+			path = "sorryworks-faq";
+			sourceTree = "<group>";
+		};
+		B259B1781BB515720021DE4B /* sorryworks-faqTests */ = {
+			isa = PBXGroup;
+			children = (
+				B259B1791BB515720021DE4B /* sorryworks_faqTests.swift */,
+				B259B17B1BB515720021DE4B /* Info.plist */,
+			);
+			path = "sorryworks-faqTests";
+			sourceTree = "<group>";
+		};
+		B259B1831BB515720021DE4B /* sorryworks-faqUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B259B1841BB515720021DE4B /* sorryworks_faqUITests.swift */,
+				B259B1861BB515720021DE4B /* Info.plist */,
+			);
+			path = "sorryworks-faqUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B259B1601BB515720021DE4B /* sorryworks-faq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B259B1891BB515720021DE4B /* Build configuration list for PBXNativeTarget "sorryworks-faq" */;
+			buildPhases = (
+				B259B15D1BB515720021DE4B /* Sources */,
+				B259B15E1BB515720021DE4B /* Frameworks */,
+				B259B15F1BB515720021DE4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sorryworks-faq";
+			productName = "sorryworks-faq";
+			productReference = B259B1611BB515720021DE4B /* sorryworks-faq.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B259B1741BB515720021DE4B /* sorryworks-faqTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B259B18C1BB515720021DE4B /* Build configuration list for PBXNativeTarget "sorryworks-faqTests" */;
+			buildPhases = (
+				B259B1711BB515720021DE4B /* Sources */,
+				B259B1721BB515720021DE4B /* Frameworks */,
+				B259B1731BB515720021DE4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B259B1771BB515720021DE4B /* PBXTargetDependency */,
+			);
+			name = "sorryworks-faqTests";
+			productName = "sorryworks-faqTests";
+			productReference = B259B1751BB515720021DE4B /* sorryworks-faqTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B259B17F1BB515720021DE4B /* sorryworks-faqUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B259B18F1BB515720021DE4B /* Build configuration list for PBXNativeTarget "sorryworks-faqUITests" */;
+			buildPhases = (
+				B259B17C1BB515720021DE4B /* Sources */,
+				B259B17D1BB515720021DE4B /* Frameworks */,
+				B259B17E1BB515720021DE4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B259B1821BB515720021DE4B /* PBXTargetDependency */,
+			);
+			name = "sorryworks-faqUITests";
+			productName = "sorryworks-faqUITests";
+			productReference = B259B1801BB515720021DE4B /* sorryworks-faqUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B259B1591BB515720021DE4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Bravo375;
+				TargetAttributes = {
+					B259B1601BB515720021DE4B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B259B1741BB515720021DE4B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B259B1601BB515720021DE4B;
+					};
+					B259B17F1BB515720021DE4B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B259B1601BB515720021DE4B;
+					};
+				};
+			};
+			buildConfigurationList = B259B15C1BB515720021DE4B /* Build configuration list for PBXProject "sorryworks-faq" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B259B1581BB515720021DE4B;
+			productRefGroup = B259B1621BB515720021DE4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B259B1601BB515720021DE4B /* sorryworks-faq */,
+				B259B1741BB515720021DE4B /* sorryworks-faqTests */,
+				B259B17F1BB515720021DE4B /* sorryworks-faqUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B259B15F1BB515720021DE4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B259B16F1BB515720021DE4B /* LaunchScreen.storyboard in Resources */,
+				B259B16C1BB515720021DE4B /* Assets.xcassets in Resources */,
+				B259B16A1BB515720021DE4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B259B1731BB515720021DE4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B259B17E1BB515720021DE4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B259B15D1BB515720021DE4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B259B1671BB515720021DE4B /* ViewController.swift in Sources */,
+				B259B1651BB515720021DE4B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B259B1711BB515720021DE4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B259B17A1BB515720021DE4B /* sorryworks_faqTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B259B17C1BB515720021DE4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B259B1851BB515720021DE4B /* sorryworks_faqUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B259B1771BB515720021DE4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B259B1601BB515720021DE4B /* sorryworks-faq */;
+			targetProxy = B259B1761BB515720021DE4B /* PBXContainerItemProxy */;
+		};
+		B259B1821BB515720021DE4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B259B1601BB515720021DE4B /* sorryworks-faq */;
+			targetProxy = B259B1811BB515720021DE4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B259B1681BB515720021DE4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B259B1691BB515720021DE4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B259B16D1BB515720021DE4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B259B16E1BB515720021DE4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B259B1871BB515720021DE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B259B1881BB515720021DE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B259B18A1BB515720021DE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "sorryworks-faq/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bravo375.sorryworks-faq";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B259B18B1BB515720021DE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "sorryworks-faq/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bravo375.sorryworks-faq";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B259B18D1BB515720021DE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "sorryworks-faqTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bravo375.sorryworks-faqTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sorryworks-faq.app/sorryworks-faq";
+			};
+			name = Debug;
+		};
+		B259B18E1BB515720021DE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "sorryworks-faqTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bravo375.sorryworks-faqTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sorryworks-faq.app/sorryworks-faq";
+			};
+			name = Release;
+		};
+		B259B1901BB515720021DE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "sorryworks-faqUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bravo375.sorryworks-faqUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "sorryworks-faq";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B259B1911BB515720021DE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "sorryworks-faqUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bravo375.sorryworks-faqUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "sorryworks-faq";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B259B15C1BB515720021DE4B /* Build configuration list for PBXProject "sorryworks-faq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B259B1871BB515720021DE4B /* Debug */,
+				B259B1881BB515720021DE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B259B1891BB515720021DE4B /* Build configuration list for PBXNativeTarget "sorryworks-faq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B259B18A1BB515720021DE4B /* Debug */,
+				B259B18B1BB515720021DE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B259B18C1BB515720021DE4B /* Build configuration list for PBXNativeTarget "sorryworks-faqTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B259B18D1BB515720021DE4B /* Debug */,
+				B259B18E1BB515720021DE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B259B18F1BB515720021DE4B /* Build configuration list for PBXNativeTarget "sorryworks-faqUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B259B1901BB515720021DE4B /* Debug */,
+				B259B1911BB515720021DE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B259B1591BB515720021DE4B /* Project object */;
+}
