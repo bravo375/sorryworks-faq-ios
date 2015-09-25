@@ -58,9 +58,7 @@ class ViewController: UITableViewController {
                         self.faqs.append(faq)
                         print(self.faqs.count)
                     }
-                    print("Reloading data")
-                    self.tableView.reloadData()
-                    print("Done reloading data")
+                    dispatch_async(dispatch_get_main_queue(),{ self.tableView.reloadData() })
                 }
                     else {
                     // Woa, okay the json object was nil, something went worng. Maybe the server isn't running?
