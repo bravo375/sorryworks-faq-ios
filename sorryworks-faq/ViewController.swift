@@ -77,6 +77,11 @@ class ViewController: UITableViewController {
         return 1
     }
     
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let url = faqs[indexPath.row].answer
+        UIApplication.sharedApplication().openURL(url!)
+    }
+    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         print("Number of rows \(faqs.count)")
         return faqs.count
