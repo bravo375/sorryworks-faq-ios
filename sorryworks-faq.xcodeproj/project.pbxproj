@@ -14,6 +14,7 @@
 		B259B16F1BB515720021DE4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B259B16D1BB515720021DE4B /* LaunchScreen.storyboard */; };
 		B259B17A1BB515720021DE4B /* sorryworks_faqTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259B1791BB515720021DE4B /* sorryworks_faqTests.swift */; };
 		B259B1851BB515720021DE4B /* sorryworks_faqUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259B1841BB515720021DE4B /* sorryworks_faqUITests.swift */; };
+		B259B1931BB525E70021DE4B /* Faq.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259B1921BB525E70021DE4B /* Faq.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B259B1801BB515720021DE4B /* sorryworks-faqUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sorryworks-faqUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B259B1841BB515720021DE4B /* sorryworks_faqUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sorryworks_faqUITests.swift; sourceTree = "<group>"; };
 		B259B1861BB515720021DE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B259B1921BB525E70021DE4B /* Faq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Faq.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B259B16B1BB515720021DE4B /* Assets.xcassets */,
 				B259B16D1BB515720021DE4B /* LaunchScreen.storyboard */,
 				B259B1701BB515720021DE4B /* Info.plist */,
+				B259B1921BB525E70021DE4B /* Faq.swift */,
 			);
 			path = "sorryworks-faq";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B259B1671BB515720021DE4B /* ViewController.swift in Sources */,
+				B259B1931BB525E70021DE4B /* Faq.swift in Sources */,
 				B259B1651BB515720021DE4B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +485,7 @@
 				B259B18B1BB515720021DE4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B259B18C1BB515720021DE4B /* Build configuration list for PBXNativeTarget "sorryworks-faqTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +494,7 @@
 				B259B18E1BB515720021DE4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B259B18F1BB515720021DE4B /* Build configuration list for PBXNativeTarget "sorryworks-faqUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +503,7 @@
 				B259B1911BB515720021DE4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
